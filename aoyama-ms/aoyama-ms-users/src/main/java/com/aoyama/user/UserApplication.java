@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, SeataAutoConfiguration.class, SentinelWebAutoConfiguration.class, SeataRestTemplateAutoConfiguration.class, MongoAutoConfiguration.class
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, SeataAutoConfiguration.class,  SeataRestTemplateAutoConfiguration.class, MongoAutoConfiguration.class
 })
 public class UserApplication {
 

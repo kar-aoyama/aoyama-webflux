@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lzl.aoyama.ms</groupId>
-    <artifactId>aoyama-ms-user</artifactId>
+    <artifactId>aoyama-ms-users</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -12,7 +12,7 @@
     <artifactId>aoyama-ms</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>aoyama-ms-user</module>
+        <module>aoyama-ms-users</module>
     </modules>
 
     <properties>
@@ -53,6 +53,7 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
+
         <!--添加seata-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

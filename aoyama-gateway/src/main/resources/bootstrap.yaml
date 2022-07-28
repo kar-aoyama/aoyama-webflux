@@ -1,0 +1,11 @@
+server:
+  port: 22100
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: aoyama-user
+          uri: lb://aoyama-user
+          predicates:
+          - path: /user/**
